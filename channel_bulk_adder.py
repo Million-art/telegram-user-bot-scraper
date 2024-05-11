@@ -3,8 +3,8 @@ from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import InviteToChannelRequest
 
 # Replace with your own API credentials
-api_id = 22164421
-api_hash = 'e911332999d3e9d1fc308b0dff7797bc'
+api_id = 'your api id'
+api_hash = 'your api hash'
 
 # Initialize the Telegram client
 client = TelegramClient('session_name', api_id, api_hash)
