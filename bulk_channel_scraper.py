@@ -12,8 +12,8 @@ logger = logging.getLogger()
 
 
 # Telegram API credentials
-telegram_api_id = 22164421
-telegram_api_hash = 'e911332999d3e9d1fc308b0dff7797bc'
+telegram_api_id = 'your telegram api id'
+telegram_api_hash = 'your telegram api hash'
 
 # Initialize Telegram client
 telegram_client = TelegramClient('session_name', telegram_api_id, telegram_api_hash)
