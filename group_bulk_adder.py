@@ -2,17 +2,17 @@ from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import InviteToChannelRequest
 
 # Replace with your own API credentials
-api_id = 22164421
-api_hash = 'e911332999d3e9d1fc308b0dff7797bc'
+api_id = 'your api id'
+api_hash = 'your api hash'
 
 # Initialize the Telegram client
 client = TelegramClient('session_name', api_id, api_hash)
 
 # Replace with the username of the source channel
-source_channel_username = '@ertgulinphoto'
+source_channel_username = '@your surce channel username'
 
 # Replace with the username of the destination channel
-destination_channel_username = '@elprotein'
+destination_channel_username = '@your destination channel username'
 
 # Function to fetch members from the source channel and add them to the destination channel
 async def add_members_to_destination_channel():
