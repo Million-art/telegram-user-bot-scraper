@@ -39,8 +39,8 @@ async def check_and_repost_messages():
     try:
         await telegram_client.start()
 
-        source_channel_usernames = ['@LinosBonda07', '@promomoye', '@nejashionlinemarketing', '@Adeybonda', '@merkato101', '@qnashcom', '@shopingett', '@shegershoes123', '@geezshoes','@hamdbrand','@Hilumart6','@technologycfy']
-        destination_channel_username = 'https://t.me/inbivili'
+        source_channel_usernames = ['source channel username separate by comma']
+        destination_channel_username = 'destination channel username'
         last_post_ids = read_last_post_ids()
         while True:
             for source_channel_username in source_channel_usernames:
